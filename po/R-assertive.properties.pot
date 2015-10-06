@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: assertive.properties 0.0-1\n"
+"Report-Msgid-Bugs-To: https://bitbucket.org/richierocks/assertive.properties\n"
+"POT-Creation-Date: 2015-08-30 09:04\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Richard Cotton <richierocks@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "%s has length %d but %s has length %d."
+msgstr ""
+
+msgid "%s has dim %s but %s has dim %s."
+msgstr ""
+
+msgid "%s does not have all the attributes %s."
+msgstr ""
+
+msgid "%s does not have any of the attributes %s."
+msgstr ""
+
+msgid "%s has no duplicates."
+msgstr ""
+
+msgid "%s has length 0."
+msgstr ""
+
+msgid "%s has 0 elements."
+msgstr ""
+
+msgid "%s has length 1."
+msgstr ""
+
+msgid "%s has 1 element."
+msgstr ""
+
+msgid "n should be a non-negative integer vector."
+msgstr ""
+
+msgid        "%s has a duplicate at position %s."
+msgid_plural "%s has duplicates at positions %s."
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%s has %d element, not %d."
+msgid_plural "%s has %d elements, not %d."
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%s has dimension %s, not NULL."
+msgid_plural "%s has dimensions %s, not NULL."
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "%s has %d dimension, not %d."
+msgid_plural "%s has %d dimensions, not %d."
+msgstr[0]    ""
+msgstr[1]    ""
+
+msgid        "Dimension %s of %s is incorrect."
+msgid_plural "Dimensions %s of %s are incorrect."
+msgstr[0]    ""
+msgstr[1]    ""
