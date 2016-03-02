@@ -64,12 +64,13 @@ has_no_attributes <- function(x, .xname = get_name_in_parent(x))
 #' #These examples should fail.
 #' assertive.base::dont_stop(assert_has_all_attributes(x, c("names", "c")))
 #' @importFrom assertive.base bapply
+#' @importFrom assertive.base set_cause
 #' @export
 has_attributes <- function(x, attrs, .xname = get_name_in_parent(x))
 {
   if(is_empty(attrs)) return(logical())
-  bapply(
-    attrs,
-    function(at) is_not_null(attr(x, at))
+  set_cause(
+    bapply(attrs, function(at) is_not_null(attr(x, at))),
+    "no attr"
   )
 }

@@ -55,6 +55,10 @@ assert_all_are_same_length_legacy <- function(..., l = list())
 
 #' @rdname are_same_length
 #' @export
+assert_all_are_same_length <- assert_all_are_same_length_legacy
+
+#' @rdname are_same_length
+#' @export
 assert_any_are_same_length_legacy <- function(..., l = list())
 {
   .Deprecated("assert_are_same_length")
@@ -76,3 +80,7 @@ assert_any_are_same_length_legacy <- function(..., l = list())
     )
   }
 }
+
+#' @rdname are_same_length
+#' @export
+assert_any_are_same_length <- assert_any_are_same_length_legacy

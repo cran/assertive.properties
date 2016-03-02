@@ -18,7 +18,7 @@
 #' where pairs of inputs are the same length.  (The new version of the function 
 #' is easier to work with, and it is recommended that you switch your code to 
 #' it.)
-#' @seealso \code{\link[base]{length}}, \code{\link[assertive]{are_identical}}
+#' @seealso \code{\link[base]{length}}, \code{\link[assertive.base]{are_identical}}
 #' @examples
 #' are_same_length(runif(5), list(1, 2:3, 4:6, 7:10, 11:15))
 #' assertive.base::dont_stop(

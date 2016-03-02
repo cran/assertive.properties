@@ -34,6 +34,33 @@ test_that("test.is_atomic.something_recursive.returns_false", {
   expect_false(is_atomic(list()))
 })
 
+
+test_that("test.is_nested.atomic.returns_false", {
+  expect_false(is_nested(1:5))
+})
+
+test_that("test.is_nested.list_of_vectors.returns_false", {
+  expect_false(is_nested(list(1:5)))
+})
+
+test_that("test.is_nested.list_of_lists.returns_true", {
+  expect_true(is_nested(list(list(1:5))))
+})
+
+
+test_that("test.is_non_nested.atomic.returns_true", {
+  expect_true(is_non_nested(1:5))
+})
+
+test_that("test.is_non_nested.list_of_vectors.returns_true", {
+  expect_true(is_non_nested(list(1:5)))
+})
+
+test_that("test.is_non_nested.list_of_lists.returns_false", {
+  expect_false(is_non_nested(list(list(1:5))))
+})
+
+
 test_that("test.is_recursive.a_call.returns_true", {
   expect_true(is_recursive(call("sin", "pi")))
 })

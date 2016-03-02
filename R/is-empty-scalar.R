@@ -123,7 +123,6 @@ is_scalar <- function(x, metric = c("length", "elements"),
 
 
 #' @rdname is_empty
-#' @importFrom assertive.base use_first
 #' @export
 has_elements <- function(x, n, .xname = get_name_in_parent(x))
 {
@@ -209,7 +208,6 @@ is_of_dimension <- function(x, n, .xname = get_name_in_parent(x))
 }
 
 #' @rdname is_empty
-#' @importFrom assertive.base use_first
 #' @export
 is_of_length <- function(x, n, .xname = get_name_in_parent(x))
 {

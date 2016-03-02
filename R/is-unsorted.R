@@ -22,8 +22,10 @@
 #' assert_is_unsorted(c(1, 3, 2))
 #' assert_is_unsorted(c(1, 1, 2), strictly = TRUE)
 #' #These tests should fail.
-#' assertive.base::dont_stop(assert_is_unsorted(c(1, 1, 2)))
-#' assertive.base::dont_stop(assert_is_unsorted(c(2, 1, 0)))
+#' assertive.base::dont_stop({
+#'   assert_is_unsorted(c(1, 1, 2))
+#'   assert_is_unsorted(c(2, 1, 0))
+#' })
 #' @importFrom assertive.base na
 #' @export
 is_unsorted <- function(x, na.rm = FALSE, strictly = FALSE, 
