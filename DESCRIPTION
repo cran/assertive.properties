@@ -1,8 +1,8 @@
 Package: assertive.properties
 Type: Package
 Title: Assertions to Check Properties of Variables
-Version: 0.0-2
-Date: 2016-03-02
+Version: 0.0-3
+Date: 2016-05-08
 Author: Richard Cotton [aut, cre]
 Maintainer: Richard Cotton <richierocks@gmail.com>
 Authors@R: person("Richard", "Cotton", role = c("aut", "cre"), email =
@@ -30,12 +30,12 @@ Collate: 'are-same-size.R' 'assert-are-same-size.R' 'imports.R'
         'assert-has-attributes.R' 'assert-has-dims.R'
         'assert-has-dupes.R' 'assert-has-names.R' 'assert-has-slot.R'
         'assert-is-atomic-recursive-vector.R'
-        'assert-is-empty-scalar.R' 'assert-is-null.R'
-        'assert-is-unsorted.R' 'has-attributes.R' 'has-dims.R'
-        'has-dupes.R' 'has-names.R' 'has-slot.R'
-        'is-atomic-recursive-vector.R' 'is-empty-scalar.R' 'is-null.R'
-        'is-unsorted.R' 'utils.R'
+        'assert-is-empty-scalar.R' 'assert-is-monotonic.R'
+        'assert-is-null.R' 'assert-is-unsorted.R' 'has-attributes.R'
+        'has-dims.R' 'has-dupes.R' 'has-names.R' 'has-slot.R'
+        'is-atomic-recursive-vector.R' 'is-empty-scalar.R'
+        'is-monotonic.R' 'is-null.R' 'is-unsorted.R' 'utils.R'
 NeedsCompilation: no
-Packaged: 2016-03-02 19:05:33 UTC; richie
+Packaged: 2016-05-09 05:05:44 UTC; rjc2003
 Repository: CRAN
-Date/Publication: 2016-03-02 23:33:51
+Date/Publication: 2016-05-09 17:52:46

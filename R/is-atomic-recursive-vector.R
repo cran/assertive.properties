@@ -60,7 +60,7 @@ is_atomic <- function(x, .xname = get_name_in_parent(x))
 {
   if(!is.atomic(x))
   {
-    return(false("%s is not atomic.", .xname))
+    return(false(gettext("%s is not atomic."), .xname))
   }
   TRUE
 }

@@ -1,3 +1,4 @@
+0.0-3 Added is_monotonic_increasing/is_monotonic_decreasing.
 0.0-2 Added is_nested/is_non_nested.
       Added has_slot.
       Reexported assert_all/any_are_same_length.
