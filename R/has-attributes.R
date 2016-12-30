@@ -7,9 +7,9 @@
 #' @return \code{has_any_attributes} returns \code{TRUE} if \code{attributes(x)}
 #' has length greater than zero. \code{has_attributes} returns a logical vector
 #' that is \code{TRUE} whenever the specified attribute is not \code{NULL}.
-#' 
-#' \code{assert_has_all_attributes} and \code{assert_has_all_attributes} return
-#' nothing but throw an error if \code{has_attributes} is not \code{TRUE}.
+#' @note There are no corresponding \code{assert} functions, since they overlap 
+#' too closely with the assertions for \code{\link{has_attributes}}.
+#' @seealso \code{\link{has_attributes}} to check for specific attributes.
 #' @examples
 #' has_any_attributes(matrix())
 #' has_no_attributes(data.frame())
@@ -47,7 +47,7 @@ has_no_attributes <- function(x, .xname = get_name_in_parent(x))
 
 #' Does the input have the specified attributes?
 #'
-#' Checks to see if the input has the specifed attributes.
+#' Checks to see if the input has the specified attributes.
 #'
 #' @param x Input to check.
 #' @param attrs Desired attributes.
@@ -57,12 +57,21 @@ has_no_attributes <- function(x, .xname = get_name_in_parent(x))
 #' @return \code{has_attributes} returns \code{TRUE} where \code{x} has
 #' the attributes specified in \code{attrs}. \code{assert_has_terms} returns 
 #' nothing but throws an error if \code{has_terms} is not \code{TRUE}.
+#' @seealso \code{\link{has_any_attributes}} for checking that an object has
+#' any attributes at all.
 #' @examples
+#' # has_attributes is vectorized on attrs
+#' has_attributes(sleep, c("class", "names", "row.names", "col.names"))
+#' 
+#' # You can check for any or all of these attributes to be present.
 #' x <- structure(c(a = 1), b = 2)
 #' assert_has_all_attributes(x, c("names", "b"))
-#' assert_has_any_attributes(x, c("names", "c"))
-#' #These examples should fail.
-#' assertive.base::dont_stop(assert_has_all_attributes(x, c("names", "c")))
+#' assert_has_any_attributes(x, c("names", "not an attribute"))
+#' 
+#' # These examples should fail.
+#' assertive.base::dont_stop({
+#' assert_has_all_attributes(x, c("names", "not an attribute"))
+#' })
 #' @importFrom assertive.base bapply
 #' @importFrom assertive.base set_cause
 #' @export

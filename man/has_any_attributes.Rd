@@ -18,15 +18,19 @@ has_no_attributes(x, .xname = get_name_in_parent(x))
 \code{has_any_attributes} returns \code{TRUE} if \code{attributes(x)}
 has length greater than zero. \code{has_attributes} returns a logical vector
 that is \code{TRUE} whenever the specified attribute is not \code{NULL}.
-
-\code{assert_has_all_attributes} and \code{assert_has_all_attributes} return
-nothing but throw an error if \code{has_attributes} is not \code{TRUE}.
 }
 \description{
 Checks to see if the input has any attributes.
 }
+\note{
+There are no corresponding \code{assert} functions, since they overlap 
+too closely with the assertions for \code{\link{has_attributes}}.
+}
 \examples{
 has_any_attributes(matrix())
 has_no_attributes(data.frame())
+}
+\seealso{
+\code{\link{has_attributes}} to check for specific attributes.
 }
 

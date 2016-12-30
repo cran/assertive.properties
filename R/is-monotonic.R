@@ -23,9 +23,14 @@
 #'   assert_is_monotonic_decreasing(x)
 #' })
 #' @aliases is_monotonic
+#' @importFrom assertive.base print_and_capture
 #' @export
 is_monotonic_increasing <- function(x, strictly = FALSE, .xname = get_name_in_parent(x))
 {
+  if(anyNA(x))
+  {
+    return(na("There are missing values, so monotonicity cannot be determined."))
+  }
   bad_diff_x <- which(
     if(strictly)
     {
@@ -51,15 +56,20 @@ is_monotonic_increasing <- function(x, strictly = FALSE, .xname = get_name_in_pa
         "The values of %s are not monotonic increasing.\n%s"
       }
     )
-    return(false(msg, .xname, assertive.base:::print_and_capture(d)))
+    return(false(msg, .xname, print_and_capture(d)))
   }
   TRUE
 }
 
 #' @rdname is_monotonic_increasing
+#' @importFrom assertive.base print_and_capture
 #' @export
 is_monotonic_decreasing <- function(x, strictly = FALSE, .xname = get_name_in_parent(x))
 {
+  if(anyNA(x))
+  {
+    return(na("There are missing values, so monotonicity cannot be determined."))
+  }
   bad_diff_x <- which(
     if(strictly)
     {
@@ -85,7 +95,7 @@ is_monotonic_decreasing <- function(x, strictly = FALSE, .xname = get_name_in_pa
         "The values of %s are not monotonic decreasing.\n%s"
       }
     )
-    return(false(msg, .xname, assertive.base:::print_and_capture(d)))
+    return(false(msg, .xname, print_and_capture(d)))
   }
   TRUE
 }
