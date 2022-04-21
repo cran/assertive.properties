@@ -36,4 +36,3 @@ has_slot(1:10, "foo")
 \seealso{
 \code{\link[methods]{slot}}
 }
-

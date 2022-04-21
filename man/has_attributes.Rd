@@ -6,11 +6,17 @@
 \alias{has_attributes}
 \title{Does the input have the specified attributes?}
 \usage{
-assert_has_all_attributes(x, attrs, severity = getOption("assertive.severity",
-  "stop"))
+assert_has_all_attributes(
+  x,
+  attrs,
+  severity = getOption("assertive.severity", "stop")
+)
 
-assert_has_any_attributes(x, attrs, severity = getOption("assertive.severity",
-  "stop"))
+assert_has_any_attributes(
+  x,
+  attrs,
+  severity = getOption("assertive.severity", "stop")
+)
 
 has_attributes(x, attrs, .xname = get_name_in_parent(x))
 }
@@ -50,4 +56,3 @@ assert_has_all_attributes(x, c("names", "not an attribute"))
 \code{\link{has_any_attributes}} for checking that an object has
 any attributes at all.
 }
-

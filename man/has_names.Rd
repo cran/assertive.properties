@@ -61,4 +61,3 @@ assert_has_dimnames(dfr)
 \code{\link[base]{names}}, \code{\link[base]{rownames}}, 
 \code{\link[base]{colnames}}, \code{\link[base]{dimnames}}.
 }
-

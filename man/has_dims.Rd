@@ -28,4 +28,3 @@ Checks to see if the input has dimensions.
 \seealso{
 \code{\link[base]{dim}}, \code{\link{is_of_dimension}}.
 }
-

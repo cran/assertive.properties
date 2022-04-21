@@ -1,7 +1,8 @@
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
-[![Is the package on CRAN?](http://www.r-pkg.org/badges/version/assertive.properties)](http://www.r-pkg.org/pkg/assertive.properties)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/0.1.0/inactive.svg)](https://www.repostatus.org/#inactive)
+[![Is the package on CRAN?](https://www.r-pkg.org/badges/version/assertive.properties)](https://www.r-pkg.org/pkg/assertive.properties)
 [![SemaphoreCI Build Status](https://semaphoreci.com/api/v1/projects/a6502e87-9ee4-42cb-8ab3-cd9ecce2ca5f/635146/badge.svg)](https://semaphoreci.com/richierocks/assertive-properties)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/jd2j588xgmjtrp3j?svg=true)](https://ci.appveyor.com/project/richierocks/assertive-properties)
+[![Research software impact](http://depsy.org/api/package/cran/assertive.properties/badge.svg)](http://depsy.org/package/r/assertive.properties)
 
 # assertive.properties
 
@@ -16,16 +17,16 @@ To install the stable version, type:
 install.packages("assertive.properties")
 ```
 
-To install the development version, you first need the *devtools* package.
+To install the development version, you first need the *remotes* package.
 
 ```{r}
-install.packages("devtools")
+install.packages("remotes")
 ```
 
 Then you can install the *assertive.properties* package using
 
 ```{r}
-library(devtools)
+library(remotes)
 install_bitbucket("richierocks/assertive.properties")
 ```
 

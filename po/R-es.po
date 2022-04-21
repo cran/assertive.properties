@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: assertive.properties 0.0-4\n"
+"Report-Msgid-Bugs-To: https://bitbucket.org/richierocks/assertive.properties/issues\n"
+"POT-Creation-Date: 2015-08-30 09:04\n"
+"PO-Revision-Date: 2017-06-25 21:56\n"
+"Last-Translator: Richard Cotton <richierocks@gmail.com>\n"
+"Language-Team:  \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s has length %d but %s has length %d."
+msgstr "% S tiene longitud% d pero% s tiene longitud% d."
+
+msgid "%s has dim %s but %s has dim %s."
+msgstr "% S tiene% s difuso pero% s tiene% s difuso."
+
+msgid "%s does not have all the attributes %s."
+msgstr "% S no tiene todos los atributos% s."
+
+msgid "%s does not have any of the attributes %s."
+msgstr "% S no tiene ninguno de los atributos% s."
+
+msgid "%s has no duplicates."
+msgstr "% S no tiene duplicados."
+
+msgid "%s has length 0."
+msgstr "% S tiene longitud 0."
+
+msgid "%s has 0 elements."
+msgstr "% S tiene 0 elementos."
+
+msgid "%s has length 1."
+msgstr "% S tiene longitud 1."
+
+msgid "%s has 1 element."
+msgstr "% S tiene 1 elemento."
+
+msgid "n should be a non-negative integer vector."
+msgstr "N debe ser un vector entero no negativo."
+
+msgid "%s has a duplicate at position %s."
+msgid_plural "%s has duplicates at positions %s."
+msgstr[0] "% S tiene un duplicado en la posición% s."
+msgstr[1] "% S tiene duplicados en las posiciones% s."
+
+msgid "%s has %d element, not %d."
+msgid_plural "%s has %d elements, not %d."
+msgstr[0] "% S tiene% d elemento, no% d."
+msgstr[1] "% S tiene% d elementos, no% d."
+
+msgid "%s has dimension %s, not NULL."
+msgid_plural "%s has dimensions %s, not NULL."
+msgstr[0] "% S tiene la dimensión% s, no NULL."
+msgstr[1] "% S tiene las dimensiones% s, no NULL."
+
+msgid "%s has %d dimension, not %d."
+msgid_plural "%s has %d dimensions, not %d."
+msgstr[0] "% S tiene% d dimensión, no% d."
+msgstr[1] "% S tiene% d dimensiones, no% d."
+
+msgid "Dimension %s of %s is incorrect."
+msgid_plural "Dimensions %s of %s are incorrect."
+msgstr[0] "La dimensión% s de% s es incorrecta."
+msgstr[1] "Las dimensiones% s de% s son incorrectas."
+

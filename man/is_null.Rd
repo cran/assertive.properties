@@ -59,4 +59,3 @@ assertive.base::dont_stop(assert_is_null(NaN))
 \seealso{
 \code{\link[base]{is.null}}.
 }
-

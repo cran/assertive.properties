@@ -9,8 +9,7 @@
 \usage{
 assert_has_duplicates(x, severity = getOption("assertive.severity", "stop"))
 
-assert_has_no_duplicates(x, severity = getOption("assertive.severity",
-  "stop"))
+assert_has_no_duplicates(x, severity = getOption("assertive.severity", "stop"))
 
 has_duplicates(x, .xname = get_name_in_parent(x))
 
@@ -41,4 +40,3 @@ has_no_duplicates(x)
 \seealso{
 \code{\link{anyDuplicated}}.
 }
-

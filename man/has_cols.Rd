@@ -40,4 +40,3 @@ assert_has_cols(matrix())
 \seealso{
 \code{\link{ncol}}.
 }
-

@@ -33,4 +33,3 @@ has_no_attributes(data.frame())
 \seealso{
 \code{\link{has_attributes}} to check for specific attributes.
 }
-

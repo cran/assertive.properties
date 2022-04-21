@@ -31,4 +31,3 @@ n_elements(var) # depends upon the length of the body
 \seealso{
 \code{\link{DIM}}
 }
-

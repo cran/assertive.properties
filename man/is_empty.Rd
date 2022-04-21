@@ -8,45 +8,64 @@
 \alias{assert_is_of_dimension}
 \alias{assert_is_of_length}
 \alias{assert_is_scalar}
-\alias{has_elements}
 \alias{is_empty}
 \alias{is_non_empty}
 \alias{is_non_scalar}
+\alias{is_scalar}
+\alias{has_elements}
 \alias{is_of_dimension}
 \alias{is_of_length}
-\alias{is_scalar}
 \title{Is the input empty/scalar?}
 \usage{
 assert_has_elements(x, n, severity = getOption("assertive.severity", "stop"))
 
-assert_is_empty(x, metric = c("length", "elements"),
-  severity = getOption("assertive.severity", "stop"))
+assert_is_empty(
+  x,
+  metric = c("length", "elements"),
+  severity = getOption("assertive.severity", "stop")
+)
 
-assert_is_non_empty(x, metric = c("length", "elements"),
-  severity = getOption("assertive.severity", "stop"))
+assert_is_non_empty(
+  x,
+  metric = c("length", "elements"),
+  severity = getOption("assertive.severity", "stop")
+)
 
-assert_is_non_scalar(x, metric = c("length", "elements"),
-  severity = getOption("assertive.severity", "stop"))
+assert_is_non_scalar(
+  x,
+  metric = c("length", "elements"),
+  severity = getOption("assertive.severity", "stop")
+)
 
-assert_is_of_dimension(x, n, severity = getOption("assertive.severity",
-  "stop"))
+assert_is_of_dimension(
+  x,
+  n,
+  severity = getOption("assertive.severity", "stop")
+)
 
 assert_is_of_length(x, n, severity = getOption("assertive.severity", "stop"))
 
-assert_is_scalar(x, metric = c("length", "elements"),
-  severity = getOption("assertive.severity", "stop"))
+assert_is_scalar(
+  x,
+  metric = c("length", "elements"),
+  severity = getOption("assertive.severity", "stop")
+)
 
-is_empty(x, metric = c("length", "elements"),
-  .xname = get_name_in_parent(x))
+is_empty(x, metric = c("length", "elements"), .xname = get_name_in_parent(x))
 
-is_non_empty(x, metric = c("length", "elements"),
-  .xname = get_name_in_parent(x))
+is_non_empty(
+  x,
+  metric = c("length", "elements"),
+  .xname = get_name_in_parent(x)
+)
 
-is_non_scalar(x, metric = c("length", "elements"),
-  .xname = get_name_in_parent(x))
+is_non_scalar(
+  x,
+  metric = c("length", "elements"),
+  .xname = get_name_in_parent(x)
+)
 
-is_scalar(x, metric = c("length", "elements"),
-  .xname = get_name_in_parent(x))
+is_scalar(x, metric = c("length", "elements"), .xname = get_name_in_parent(x))
 
 has_elements(x, n, .xname = get_name_in_parent(x))
 
@@ -134,4 +153,3 @@ assert_is_of_dimension(l, NULL)
 \seealso{
 \code{\link{length}}.
 }
-

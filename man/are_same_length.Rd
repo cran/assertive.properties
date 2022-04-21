@@ -2,29 +2,39 @@
 % Please edit documentation in R/are-same-size.R, R/assert-are-same-size.R
 \name{are_same_length}
 \alias{are_same_length}
+\alias{have_same_dims}
 \alias{are_same_length_legacy}
-\alias{assert_all_are_same_length}
-\alias{assert_all_are_same_length_legacy}
-\alias{assert_any_are_same_length}
-\alias{assert_any_are_same_length_legacy}
 \alias{assert_are_same_length}
 \alias{assert_have_same_dims}
-\alias{have_same_dims}
+\alias{assert_all_are_same_length_legacy}
+\alias{assert_all_are_same_length}
+\alias{assert_any_are_same_length_legacy}
+\alias{assert_any_are_same_length}
 \title{Are the inputs the same length/dimension?}
 \usage{
-are_same_length(x, y, .xname = get_name_in_parent(x),
-  .yname = get_name_in_parent(y))
+are_same_length(
+  x,
+  y,
+  .xname = get_name_in_parent(x),
+  .yname = get_name_in_parent(y)
+)
 
-have_same_dims(x, y, .xname = get_name_in_parent(x),
-  .yname = get_name_in_parent(y))
+have_same_dims(
+  x,
+  y,
+  .xname = get_name_in_parent(x),
+  .yname = get_name_in_parent(y)
+)
 
 are_same_length_legacy(..., l = list())
 
-assert_are_same_length(x, y, severity = getOption("assertive.severity",
-  "stop"))
+assert_are_same_length(
+  x,
+  y,
+  severity = getOption("assertive.severity", "stop")
+)
 
-assert_have_same_dims(x, y, severity = getOption("assertive.severity",
-  "stop"))
+assert_have_same_dims(x, y, severity = getOption("assertive.severity", "stop"))
 
 assert_all_are_same_length_legacy(..., l = list())
 
@@ -78,4 +88,3 @@ have_same_dims(1:5, matrix(1:5))
 \seealso{
 \code{\link[base]{length}}, \code{\link[assertive.base]{are_identical}}
 }
-

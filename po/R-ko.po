@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: assertive.properties 0.0-4\n"
+"Report-Msgid-Bugs-To: https://bitbucket.org/richierocks/assertive.properties/issues\n"
+"POT-Creation-Date: 2015-08-30 09:04\n"
+"PO-Revision-Date: 2017-06-25 21:56\n"
+"Last-Translator: Richard Cotton <richierocks@gmail.com>\n"
+"Language-Team:  \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s has length %d but %s has length %d."
+msgstr "% s의 길이는 % d이지만 % s의 길이는 % d입니다."
+
+msgid "%s has dim %s but %s has dim %s."
+msgstr "% s에 dim % s이 (가) 있지만 % s에 dim % s이 (가) 있습니다."
+
+msgid "%s does not have all the attributes %s."
+msgstr "% s에 모든 속성 % s이 (가) 없습니다."
+
+msgid "%s does not have any of the attributes %s."
+msgstr "% s에 % s 속성이 없습니다."
+
+msgid "%s has no duplicates."
+msgstr "% s에 중복이 없습니다."
+
+msgid "%s has length 0."
+msgstr "% s의 길이는 0입니다."
+
+msgid "%s has 0 elements."
+msgstr "% s에 0 개의 요소가 있습니다."
+
+msgid "%s has length 1."
+msgstr "% s의 길이는 1입니다."
+
+msgid "%s has 1 element."
+msgstr "% s에 1 개의 요소가 있습니다."
+
+msgid "n should be a non-negative integer vector."
+msgstr "n은 음수가 아닌 정수 벡터 여야합니다."
+
+msgid "%s has a duplicate at position %s."
+msgid_plural "%s has duplicates at positions %s."
+msgstr[0] "% s에 % s 위치에 중복이 있습니다."
+
+msgid "%s has %d element, not %d."
+msgid_plural "%s has %d elements, not %d."
+msgstr[0] "% s에 % d 개 요소가 있지만 % d 개가 없습니다."
+
+msgid "%s has dimension %s, not NULL."
+msgid_plural "%s has dimensions %s, not NULL."
+msgstr[0] "% s에 NULL이 아닌 % s 차원이 있습니다."
+
+msgid "%s has %d dimension, not %d."
+msgid_plural "%s has %d dimensions, not %d."
+msgstr[0] "% s이 (가) % d 차원이 아니라 % d 개 있습니다."
+
+msgid "Dimension %s of %s is incorrect."
+msgid_plural "Dimensions %s of %s are incorrect."
+msgstr[0] "% s의 차원 % s이 (가) 잘못되었습니다."
+

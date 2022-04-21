@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: assertive.properties 0.0-4\n"
+"Report-Msgid-Bugs-To: https://bitbucket.org/richierocks/assertive.properties/issues\n"
+"POT-Creation-Date: 2015-08-30 09:04\n"
+"PO-Revision-Date: 2017-06-25 21:56\n"
+"Last-Translator: Richard Cotton <richierocks@gmail.com>\n"
+"Language-Team:  \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s has length %d but %s has length %d."
+msgstr "％sの長さは％dですが、％sの長さは％dです。"
+
+msgid "%s has dim %s but %s has dim %s."
+msgstr "％sはdim％sですが、％sはdim％sです。"
+
+msgid "%s does not have all the attributes %s."
+msgstr "％sにすべての属性％sがありません。"
+
+msgid "%s does not have any of the attributes %s."
+msgstr "％sには属性％sはありません。"
+
+msgid "%s has no duplicates."
+msgstr "％sに重複がありません。"
+
+msgid "%s has length 0."
+msgstr "％sの長さは0です。"
+
+msgid "%s has 0 elements."
+msgstr "％sには0個の要素があります。"
+
+msgid "%s has length 1."
+msgstr "％sの長さは1です。"
+
+msgid "%s has 1 element."
+msgstr "％sには1つの要素があります。"
+
+msgid "n should be a non-negative integer vector."
+msgstr "nは負でない整数ベクトルでなければなりません。"
+
+msgid "%s has a duplicate at position %s."
+msgid_plural "%s has duplicates at positions %s."
+msgstr[0] "％sは位置％sに重複しています。"
+
+msgid "%s has %d element, not %d."
+msgid_plural "%s has %d elements, not %d."
+msgstr[0] "％sは％d要素であり、％dではありません。"
+
+msgid "%s has dimension %s, not NULL."
+msgid_plural "%s has dimensions %s, not NULL."
+msgstr[0] "％sのディメンションは％sで、NULLではありません。"
+
+msgid "%s has %d dimension, not %d."
+msgid_plural "%s has %d dimensions, not %d."
+msgstr[0] "％sには％d個の次元があり、％dではありません。"
+
+msgid "Dimension %s of %s is incorrect."
+msgid_plural "Dimensions %s of %s are incorrect."
+msgstr[0] "％sの次元％sが正しくありません。"
+

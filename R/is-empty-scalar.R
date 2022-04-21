@@ -223,7 +223,7 @@ is_of_length <- function(x, n, .xname = get_name_in_parent(x))
 
 check_n <- function(n)
 {
-  if(n < 0 || n != round(n))
+  if(any(n < 0 | n != round(n)))
   {
     stop("n should be a non-negative integer vector.")
   }

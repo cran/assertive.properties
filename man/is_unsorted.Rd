@@ -5,11 +5,14 @@
 \alias{is_unsorted}
 \title{Is the input unsorted?}
 \usage{
-assert_is_unsorted(x, na.rm = FALSE, strictly = FALSE,
-  severity = getOption("assertive.severity", "stop"))
+assert_is_unsorted(
+  x,
+  na.rm = FALSE,
+  strictly = FALSE,
+  severity = getOption("assertive.severity", "stop")
+)
 
-is_unsorted(x, na.rm = FALSE, strictly = FALSE,
-  .xname = get_name_in_parent(x))
+is_unsorted(x, na.rm = FALSE, strictly = FALSE, .xname = get_name_in_parent(x))
 }
 \arguments{
 \item{x}{Input to check.}
@@ -51,4 +54,3 @@ assertive.base::dont_stop({
 \seealso{
 \code{\link[base]{is.unsorted}}.
 }
-

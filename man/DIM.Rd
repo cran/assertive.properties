@@ -27,4 +27,3 @@ DIM(list(x = 1:10))
 \seealso{
 \code{\link[base]{NROW}}, \code{\link[base]{dim}}
 }
-
